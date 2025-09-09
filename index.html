@@ -60,15 +60,48 @@
       <div class="content flex-1 text-center md:text-left">
         <h2 class="text-4xl font-bold mb-8"><span class="text-[#00BCFF]">English</span> is Easy!!</h2>
         <p class="font-bangla">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+<div class="flex justify-center md:justify-start mt-10">
+    <div>
+    <label class="input validator join-item">
+     
+      <input type="email" placeholder="example@gmail.com"/>
+    </label>
+    
+  </div>
+  <button onclick="alert('thanks for Subscribed')"  class="btn btn-primary join-item">Subscribe</button>
+</div>
+</div>
       </div>
       <div class="image flex-1">
         <img src="./assets/hero-student.png" alt="this is a student image">
       </div>
+
+
+    
     </section>
+
 
     <section>
       <h2 class="text-4xl font-bold mb-8 text-center"><span class="text-[#00BCFF]">Let's</span> Learn Vocabulary</h2>
       <div id="level-container" class="flex gap-5 flex-wrap justify-center"></div>
+    </section>
+    
+
+    <section class="flex justify-center pt-10">
+      <div class="join">
+  <div>
+    <label class="input validator join-item">
+     
+      <input id="input-search" type="text" placeholder="Search Vocabulary"/>
+    </label>
+    
+  </div>
+  <button id="btn-search" class="btn btn-primary join-item">Search</button>
+</div>
+    </section>
+
+    <section id="spinner" class="flex justify-center items-center py-10 hidden">
+      <span class="loading loading-bars loading-xl"></span>
     </section>
 
     <section id="word-container" class="bg-gray-100 p-10 w-11/12 mx-auto my-10 grid grid-cols-3 gap-5 rounded-xl">
